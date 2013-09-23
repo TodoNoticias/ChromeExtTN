@@ -1,0 +1,43 @@
+{
+  "name": "TN - Todo Noticias",
+  "version": "2.3",
+  "manifest_version": 2,
+  "description": "Viví informado con la extensión de Todo Noticias",
+  "icons": { 
+  "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png" 
+  },
+  "browser_action": {
+    "default_title": "TN - Todo Noticias",
+    "default_popup": "index.html",
+    "default_icon" : "logo.png"
+  },
+  "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Alt+N",
+          "mac": "Alt+N",
+          "linux": "Alt+N",
+          "windows": "Alt+N"
+        }
+      }
+    },
+  "background" : {
+    "page": "background.html" 
+  },
+  "minimum_chrome_version": "21",
+  "offline_enabled": true,
+  "permissions": [
+    "http://api.tn.com.ar/services/*",
+    "http://tn.com.ar/services/*",
+    "http://tn.cdncmd.com/sites/default/files/imagecache/*",
+    "tabs",
+    "notifications",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    "logo.png"
+  ],
+  "content_security_policy": "img-src 'self' http://tn.cdncmd.com/sites/default/files/imagecache/; script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

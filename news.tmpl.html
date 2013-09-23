@@ -1,0 +1,55 @@
+{{#.}}
+
+{{#grand}}
+
+<div id="grand" class="clearfix">
+<article class="clearfix  hentry hnews item small">
+<h1>
+<a data-trigger="true" class="entry-title url" href="{{url}}" target="_blank" rel="bookmark" title="{{title_home}}">{{title_home}}</a>
+</h1> 
+<figure class="hmedia watermark">
+<a class="url" href="{{url}}" target="_blank"> 
+<img alt="{{url}}" title="{{url}}" class="photo" src="http://tn.cdncmd.com/sites/default/files/imagecache/470x264/{{media.image.[0]}}" style="display: block;">      
+</a>
+</figure>
+<div class="dropline">
+<p>{{{dropline}}}</p>
+</div>
+</article>
+</div>
+
+{{/grand}}
+
+{{/.}}
+
+<div id="related" class="clearfix">
+
+{{#.}}
+
+{{#related}}
+
+<article class="clearfix with-image hentry hnews item small">
+
+{{#isMedia}}
+
+<figure class="hmedia watermark">
+
+<a class="url" href="{{url}}" target="_blank"> 
+<img alt="{{title}}" title="{{title}}" class="photo" src="http://tn.cdncmd.com/sites/default/files/imagecache/181x100/{{media.image.[0]}}" style="display: block;">      
+</a>
+
+</figure>
+
+{{/isMedia}}
+
+<h1>
+<a data-trigger="true" class="entry-title url" target="_blank" href="{{url}}" rel="bookmark" title="{{title}}">{{{title}}}</a>
+</h1>
+
+</article>
+
+{{/related}}
+
+{{/.}}
+
+</div>

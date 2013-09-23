@@ -1,0 +1,36 @@
+/* Noty */
+
+body{
+  
+	background:#2D2D2D;
+	color:white;
+
+}
+
+#icon {
+	height: 91px;
+	width: 32px;
+	float: left;
+	margin: 0 66px 0 0px;
+}
+
+#icon img{
+
+	width: 80px !important;
+	height: 80px !important;
+
+}
+
+#title {
+	margin-left: 38px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#description {
+	margin-left: 38px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 13px;
+	width: 245px;
+}

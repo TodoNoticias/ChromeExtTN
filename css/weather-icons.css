@@ -1,0 +1,216 @@
+.weather-icons {
+  overflow: hidden;
+  position: relative;
+}
+
+.weather-icons img {
+  position: absolute;
+  overflow: hidden;
+}
+
+.weather-icons-big .weather-icon-34 {
+  clip: rect(0px, 190px, 150px, 0px);
+  top: 0px;
+}
+.weather-icons-big .weather-icon-44, .weather-icons-big .weather-icon-2 {
+  clip: rect(151px, 190px, 301px, 0px);
+  top: -151px;
+}
+.weather-icons-big .weather-icon-9 {
+  clip: rect(302px, 190px, 452px, 0px);
+  top: -302px;
+}
+.weather-icons-big .weather-icon-7, .weather-icons-big .weather-icon-8, .weather-icons-big .weather-icon-28 {
+  clip: rect(453px, 190px, 603px, 0px);
+  top: -453px;
+}
+.weather-icons-big .weather-icon-26 {
+  clip: rect(755px, 190px, 905px, 0px);
+  top: -755px;
+}
+.weather-icons-big .weather-icon-3, .weather-icons-big .weather-icon-39 {
+  clip: rect(755px, 190px, 905px, 0px);
+  top: -755px;
+}
+.weather-icons-big .weather-icon-5, .weather-icons-big .weather-icon-6, .weather-icons-big .weather-icon-12 {
+  clip: rect(906px, 190px, 1056px, 0px);
+  top: -906px;
+}
+.weather-icons-big .weather-icon-1 {
+  clip: rect(1057px, 190px, 1207px, 0px);
+  top: -1057px;
+}
+.weather-icons-big .weather-icon-4 {
+  clip: rect(1208px, 190px, 1358px, 0px);
+  top: -1208px;
+}
+.weather-icons-big .weather-icon-16 {
+  clip: rect(1359px, 190px, 1509px, 0px);
+  top: -1359px;
+}
+.weather-icons-big .weather-icon-45 {
+  clip: rect(1510px, 190px, 1660px, 0px);
+  top: -1510px;
+}
+.weather-icons-big .weather-icon-night-34 {
+  clip: rect(1661px, 190px, 1811px, 0px);
+  top: -1661px;
+}
+.weather-icons-big .weather-icon-night-2, .weather-icons-big .weather-icon-night-9, .weather-icons-big .weather-icon-night-44 {
+  clip: rect(1812px, 190px, 1962px, 0px);
+  top: -1812px;
+}
+.weather-icons-big .weather-icon-night-8 {
+  clip: rect(1963px, 190px, 2113px, 0px);
+  top: -1963px;
+}
+.weather-icons-big .weather-icon-night-3, .weather-icons-big .weather-icon-night-7, .weather-icons-big .weather-icon-night-26, .weather-icons-big .weather-icon-night-28, .weather-icons-big .weather-icon-night-39 {
+  clip: rect(2114px, 190px, 2264px, 0px);
+  top: -2114px;
+}
+.weather-icons-big .weather-icon-night-1, .weather-icons-big .weather-icon-night-5, .weather-icons-big .weather-icon-night-6, .weather-icons-big .weather-icon-night-12 {
+  clip: rect(2265px, 190px, 2415px, 0px);
+  top: -2265px;
+}
+.weather-icons-big .weather-icon-night-4, .weather-icons-big .weather-icon-night-16, .weather-icons-big .weather-icon-night-45 {
+  clip: rect(2416px, 190px, 2566px, 0px);
+  top: -2416px;
+}
+
+.weather-icons-medium .weather-icon-34 {
+  clip: rect(0px, 90px, 55px, 0px);
+  top: 0px;
+}
+.weather-icons-medium .weather-icon-44, .weather-icons-medium .weather-icon-2 {
+  clip: rect(56px, 90px, 111px, 0px);
+  top: -56px;
+}
+.weather-icons-medium .weather-icon-9 {
+  clip: rect(112px, 90px, 167px, 0px);
+  top: -112px;
+}
+.weather-icons-medium .weather-icon-7, .weather-icons-medium .weather-icon-8, .weather-icons-medium .weather-icon-28 {
+  clip: rect(168px, 90px, 223px, 0px);
+  top: -168px;
+}
+.weather-icons-medium .weather-icon-26 {
+  clip: rect(280px, 90px, 335px, 0px);
+  top: -280px;
+}
+.weather-icons-medium .weather-icon-3, .weather-icons-medium .weather-icon-39 {
+  clip: rect(280px, 90px, 335px, 0px);
+  top: -280px;
+}
+.weather-icons-medium .weather-icon-5, .weather-icons-medium .weather-icon-6, .weather-icons-medium .weather-icon-12 {
+  clip: rect(336px, 90px, 391px, 0px);
+  top: -336px;
+}
+.weather-icons-medium .weather-icon-1 {
+  clip: rect(392px, 90px, 447px, 0px);
+  top: -392px;
+}
+.weather-icons-medium .weather-icon-4 {
+  clip: rect(448px, 90px, 503px, 0px);
+  top: -448px;
+}
+.weather-icons-medium .weather-icon-16 {
+  clip: rect(504px, 90px, 559px, 0px);
+  top: -504px;
+}
+.weather-icons-medium .weather-icon-45 {
+  clip: rect(560px, 90px, 615px, 0px);
+  top: -560px;
+}
+.weather-icons-medium .weather-icon-night-34 {
+  clip: rect(616px, 90px, 671px, 0px);
+  top: -616px;
+}
+.weather-icons-medium .weather-icon-night-2, .weather-icons-medium .weather-icon-night-9, .weather-icons-medium .weather-icon-night-44 {
+  clip: rect(672px, 90px, 727px, 0px);
+  top: -672px;
+}
+.weather-icons-medium .weather-icon-night-8 {
+  clip: rect(728px, 90px, 783px, 0px);
+  top: -728px;
+}
+.weather-icons-medium .weather-icon-night-3, .weather-icons-medium .weather-icon-night-7, .weather-icons-medium .weather-icon-night-26, .weather-icons-medium .weather-icon-night-28, .weather-icons-medium .weather-icon-night-39 {
+  clip: rect(784px, 90px, 839px, 0px);
+  top: -784px;
+}
+.weather-icons-medium .weather-icon-night-1, .weather-icons-medium .weather-icon-night-5, .weather-icons-medium .weather-icon-night-6, .weather-icons-medium .weather-icon-night-12 {
+  clip: rect(840px, 90px, 895px, 0px);
+  top: -840px;
+}
+.weather-icons-medium .weather-icon-night-4, .weather-icons-medium .weather-icon-night-16, .weather-icons-medium .weather-icon-night-45 {
+  clip: rect(896px, 90px, 951px, 0px);
+  top: -896px;
+}
+
+.weather-icons-small .weather-icon-34 {
+  clip: rect(0px, 47px, 35px, 0px);
+  top: 0px;
+}
+.weather-icons-small .weather-icon-44, .weather-icons-small .weather-icon-2 {
+  clip: rect(35px, 47px, 70px, 0px);
+  top: -35px;
+}
+.weather-icons-small .weather-icon-9 {
+  clip: rect(70px, 47px, 105px, 0px);
+  top: -70px;
+}
+.weather-icons-small .weather-icon-7, .weather-icons-small .weather-icon-8, .weather-icons-small .weather-icon-28 {
+  clip: rect(105px, 47px, 140px, 0px);
+  top: -105px;
+}
+.weather-icons-small .weather-icon-26 {
+  clip: rect(175px, 47px, 210px, 0px);
+  top: -175px;
+}
+.weather-icons-small .weather-icon-3, .weather-icons-small .weather-icon-39 {
+  clip: rect(175px, 47px, 210px, 0px);
+  top: -175px;
+}
+.weather-icons-small .weather-icon-5, .weather-icons-small .weather-icon-6, .weather-icons-small .weather-icon-12 {
+  clip: rect(210px, 47px, 245px, 0px);
+  top: -210px;
+}
+.weather-icons-small .weather-icon-1 {
+  clip: rect(245px, 47px, 280px, 0px);
+  top: -245px;
+}
+.weather-icons-small .weather-icon-4 {
+  clip: rect(280px, 47px, 315px, 0px);
+  top: -280px;
+}
+.weather-icons-small .weather-icon-16 {
+  clip: rect(315px, 47px, 350px, 0px);
+  top: -315px;
+}
+.weather-icons-small .weather-icon-45 {
+  clip: rect(350px, 47px, 385px, 0px);
+  top: -350px;
+}
+.weather-icons-small .weather-icon-night-34 {
+  clip: rect(385px, 47px, 420px, 0px);
+  top: -385px;
+}
+.weather-icons-small .weather-icon-night-2, .weather-icons-small .weather-icon-night-9, .weather-icons-small .weather-icon-night-44 {
+  clip: rect(420px, 47px, 455px, 0px);
+  top: -420px;
+}
+.weather-icons-small .weather-icon-night-8 {
+  clip: rect(455px, 47px, 490px, 0px);
+  top: -455px;
+}
+.weather-icons-small .weather-icon-night-3, .weather-icons-small .weather-icon-night-7, .weather-icons-small .weather-icon-night-26, .weather-icons-small .weather-icon-night-28, .weather-icons-small .weather-icon-night-39 {
+  clip: rect(490px, 47px, 525px, 0px);
+  top: -490px;
+}
+.weather-icons-small .weather-icon-night-1, .weather-icons-small .weather-icon-night-5, .weather-icons-small .weather-icon-night-6, .weather-icons-small .weather-icon-night-12 {
+  clip: rect(525px, 47px, 560px, 0px);
+  top: -525px;
+}
+.weather-icons-small .weather-icon-night-4, .weather-icons-small .weather-icon-night-16, .weather-icons-small .weather-icon-night-45 {
+  clip: rect(560px, 47px, 595px, 0px);
+  top: -560px;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>TN notifications</title>
+
+  <link rel="stylesheet" type="text/css" href="css/normalizr.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="css/options-style.css" />
+  <link rel="stylesheet" type="text/css" href="css/chrome-shared.css" />
+  <link rel="stylesheet" type="text/css" href="css/chrome-browser.css" />
+  <link rel="stylesheet" type="text/css" href="css/chrome-checkbox.css" />
+  <link rel="stylesheet" type="text/css" href="css/chrome-button.css" />
+  <link rel="stylesheet" type="text/css" href="css/chrome-select.css" />
+  <link rel="stylesheet" type="text/css" href="css/weather-icons.css" />
+
+  <script type="text/javascript" src="js/humans-min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/store.js"></script>
+  <script type="text/javascript" src="js/handlebars.js"></script>
+
+  <script type="text/javascript" src="js/view.js"></script>
+  <script type="text/javascript" src="js/weather.js"></script>
+  <script type="text/javascript" src="js/browser-action-core.js"></script>
+  <script type="text/javascript" src="js/options-core.js"></script>
+  
+</head>
+
+<body>
+
+<div id="wrap">
+  
+<section class="river-news">
+
+    <div id="mainview"> 
+      <div id="mainview-content">
+        <div id="page-container">
+          <div id="notificationsPage" class="page" style="display:block;">
+            <h1>Opciones</h1>
+            <div class="displaytable">
+              <section id="defaultView">
+                <h3>Establecer pestaña principal</h3>
+                <div>
+                  <div class="section-group">
+
+                    <select id="views">
+                      <option value="tn">Todo Noticias</option>
+                      <option value="deportes">Toda Pasión</option>
+                      <option value="show">Famosos</option>
+                      <option value="musica">La Viola</option>
+                      <option value="tnylagente">TN y la Gente</option>
+                    </select>
+
+                </div>
+                </div>
+              </section>
+
+              <section id="cityDefaultView">
+                <h3>Cambiar ciudad</h3>
+                <div>
+                  <div class="section-group">
+
+                    <select id="cityViews"></select>
+
+                </div>
+                </div>
+              </section>
+
+              <section id="alertStatus">
+                <h3>Alertas</h3>
+                <div>
+                  <div class="section-group">
+
+                    <ul id="alertSelectStatus" class="clearfix">
+                      <li id="on">ON</li>
+                      <li id="off">OFF</li>
+                    </ul>
+
+                </div>
+                </div>
+              </section>
+              
+              <section id="displaySection">
+                <div>
+                  <div class="section-group">
+                    <h3>Duración de las alertas</h3>
+                    <select id="timeout">
+                      <option value="1">1 segundo</option>
+                      <option value="2">2 segundos</option>
+                      <option value="5">5 segundos</option>
+                      <option value="10">10 segundos</option>
+                      <option value="15">15 segundos</option>
+                      <option value="20">20 segundos</option>
+                      <option value="30">30 segundos</option>
+                      <option value="0">Nunca</option>
+                    </select>
+                  </div>
+                  <!--<div class="section-group">
+                    <h3>Tamaño del texto de las alertas</h3>
+                    <select id="fontSize">
+                      <option value="10">10px</option>
+                      <option value="11">11px</option>
+                      <option value="12">12px</option>
+                      <option value="13">13px (default)</option>
+                      <option value="16">16px</option>
+                      <option value="18">18px</option>
+                      <option value="20">20px</option>
+                      <option value="24">24px</option>
+                    </select>
+                </div>-->
+                </div>
+              </section>
+
+              <section>
+                <h3>Recibir notificaciones de</h3>
+                <div>
+                  <div class="checkbox section-group">
+                    <label>
+                      <input id="tn" type="checkbox">
+                      <span>Todo Noticias</span>
+                    </label>
+                  </div>
+                  <div class="checkbox section-group">
+                    <label>
+                      <input id="deportes" type="checkbox">
+                      <span>Toda Pasión</span>
+                    </label>
+                  </div>
+                  <div class="checkbox section-group">
+                    <label>
+                      <input id="show" type="checkbox">
+                      <span>Famosos</span>
+                    </label>
+                  </div>
+                  <div class="checkbox section-group">
+                    <label>
+                      <input id="musica" type="checkbox">
+                      <span>La Viola</span>
+                    </label>
+                  </div>
+                  <div class="checkbox section-group">
+                    <label>
+                      <input id="tnylagente" type="checkbox">
+                      <span>TN y la Gente</span>
+                    </label>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+          </div>
+
+        </div>
+      </div></div>
+
+    <div id="content-of-data-port" class="clearfix"></div>
+    
+    <div id="social">
+        
+        <ul class="clearfix">
+          <li><a href="http://twitter.com/todonoticias" class="social twitter" target="_blank">twitter</a></li>
+          <li><a href="http://facebook.com/todonoticias" class="social facebook" target="_blank">facebook</a></li>
+          <li><a href="http://plus.google.com/u/0/+todonoticias/posts" class="social google" target="_blank">google</a></li>
+          <!--<li><a href="http://tn.com.ar/trends/videos" class="social youtube" target="_blank">youtube</a></li>
+          <li><a href="http://tn.com.ar/rss.xml" class="social rss" target="_blank">rss</a></li>-->
+          <li><a href="http://tn.com.ar" class="see-more" target="_blank">Ver más<span id="row"></span></a></li>
+        </ul>
+
+    </div>
+
+</section>
+
+<aside class="aside-content">
+    
+    <ul id="menu">
+      <li class="logo"><a href="http://tn.com.ar" id="logo" target="_blank">Todo Noticias</a></li>
+      <li class="alive"><a href="http://tn.com.ar/vivo" target="_blank"><span class="play"></span>En vivo</a></li>
+      <li class="weather">
+        
+        <a class="weather-icons weather-icons-small title-item" target="_blank" href="http://tn.com.ar/clima">
+          <span class="wheather-title"></span>
+          <img class="weather-icon-2" height="595" src="images/weather-icons-47x27.png" title="" width="47">
+          <span class="wheather-content"></span>
+        </a>
+
+      </li>
+      <li class="item binder tn" data-page="tn">Todo Noticias</li>
+      <li class="item binder deportes" data-page="deportes">Toda Pasión</li>
+      <li class="item binder musica" data-page="musica">La Viola</li>
+      <li class="item binder show" data-page="show">Famosos</li>
+      <li class="item binder tnylagente" data-page="tnylagente">TN y la Gente</li>
+      <li class="item transito"><a href="http://tn.com.ar/transito" target="_blank">Tránsito</a></li>
+      <li class="search"><input class="text" placeholder="Buscar" type="text" name="keys"></li>  
+    </ul>
+
+    <div class="shadow"></div>
+
+</aside>
+
+  <div id="tools" class="tools"></div>
+
+</div>
+
+</body>
+
+</html>

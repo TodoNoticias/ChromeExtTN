@@ -1,4 +1,4 @@
-ChromeExtTN
-===========
+googleChromeTN
+==============
 
-ChromeExtTN
+Google Chrome extension for TN.com.ar
